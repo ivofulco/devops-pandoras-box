@@ -1,0 +1,36 @@
+set sh=WScript.CreateObject("WScript.Shell")
+WScript.Sleep 500
+sh.SendKeys "admin"
+WScript.Sleep 500
+sh.SendKeys "~"
+WScript.Sleep 500
+sh.SendKeys "MYSECRETPASSWORD"
+sh.SendKeys "~"
+WScript.Sleep 500
+sh.SendKeys "do reboot"
+sh.SendKeys "~"
+WScript.Sleep 75000
+sh.SendKeys "^]" 
+WScript.Sleep 500
+sh.SendKeys "quit"
+WScript.Sleep 500
+sh.SendKeys "~"
+WScript.Sleep 500
+set sh=WScript.CreateObject("WScript.Shell")
+WScript.Sleep 500
+sh.SendKeys "admin"
+WScript.Sleep 500
+sh.SendKeys "~"
+WScript.Sleep 500
+sh.SendKeys "MYSECRETPASSWORD"
+sh.SendKeys "~"
+WScript.Sleep 500
+sh.SendKeys "do reboot"
+sh.SendKeys "~"
+WScript.Sleep 75000
+sh.SendKeys "^]" 
+WScript.Sleep 500
+sh.SendKeys "quit"
+WScript.Sleep 500
+sh.SendKeys "~"
+WScript.Sleep 500

@@ -1,0 +1,1 @@
+az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n {CDN_NAME} --profile-name ${CDN_PROFILE_NAME} --content-paths '/*'

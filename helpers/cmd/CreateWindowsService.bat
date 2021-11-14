@@ -1,0 +1,1 @@
+sc create ServiceExample binPath= "C:\MYFOLDER\MySVC.exe" DisplayName= "MyServiceExample" start= auto
